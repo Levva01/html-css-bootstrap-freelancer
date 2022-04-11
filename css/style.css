@@ -13,3 +13,10 @@
 .background-red{
     background-color: red;
 }
+
+/* HERO */
+
+.hero img{
+    width: 30%;
+    height: auto;
+}
