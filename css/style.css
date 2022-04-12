@@ -24,6 +24,14 @@
     color: white;
 }
 
+.text-principal{
+    color: #19BC9C;
+}
+
+.bg-transparent{
+    background-color: transparent;
+}
+
 /*----------------------
     TYPO
 -----------------------*/
@@ -78,4 +86,8 @@ header {
 footer {
     color: #fff;
     text-align: center;
+}
+
+i{
+    font-size: 30px;
 }
