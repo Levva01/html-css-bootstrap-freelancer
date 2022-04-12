@@ -4,209 +4,145 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bootstrap</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Freelancer</title>
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- /Bootstrap -->
         <link rel="stylesheet" href="css/style.css">
-
     </head>
     <body>
-
-        <!-- header -->
-        <header class="background-blue pt-3 pb-3 px-3">
-            
-            <div class="row">
-                
-                <div class="col-sm-6">
-                    <h1>START BOOTSTRAP</h1>
+        <header class="bg-secondary-color py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="logo">START BOOTSTRAP</div>
+                    </div>
+                    <div class="col-6 text-end">
+                        <nav class="main-nav d-none d-sm-block">
+                            <ul>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <button type="button" class="btn btn-outline-secondary d-sm-none">Mobile</button>
+                    </div>
                 </div>
-
-                <div class="col-sm-6">
-                    <h2 class="text-end">Lorem</h2>
-                </div>
-
             </div>
-
         </header>
-        <!-- /header -->
-
-        <!-- main -->
         <main>
-
-            <!-- hero -->
-            <section class="hero background-green pt-3 pb-3">
-
-                <div class="row">
-
-                    <div class="col-sm-12 text-center">
-                        <img src="img/avatar.svg" alt="">
+            <!-- sezione hero -->
+            <section class="bg-primary-color hero py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <img src="img/avatar.svg" alt="Foto Hero">
+                            <h1>START BOOTSTRAP</h1>
+                            <p>GRAPICH ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                        </div>
                     </div>
-
                 </div>
-
-                <div class="row">
-
-                    <div class="col-sm-12 text-center">
-                        <h2>START BOOTSTRAP</h2>
-                    </div>
-
-                </div>
-
-                <div class="row">
-
-                    <div class="col-sm-12 text-center">
-                        <h3>Lorem ipsum dolor sit amet</h3>
-                    </div>
-
-                </div>
-
             </section>
-            <!-- /hero -->
-
-            <!-- portfolio -->
-            <section class="portfolio px-5 pt-5">
-
-                <div class="row">
-
-                    <div class="col-sm-12 text-center">
-
-                        <h2>PORTFOLIO</h2>
-
+            <!-- /sezione hero -->
+            <!-- sezione portfolio -->
+            <section class="py-5">
+                <div class="container">
+                    <h2>PORTFOLIO</h2>
+                    <div class="overflow-hidden">
+                        <div class="row g-4">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="portfolio">
+                                    <img src="img/cabin.png" alt="Img Portfolio">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="portfolio">
+                                    <img src="img/cake.png" alt="Img Portfolio">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="portfolio">
+                                    <img src="img/circus.png" alt="Img Portfolio">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="portfolio">
+                                    <img src="img/game.png" alt="Img Portfolio">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="portfolio">
+                                    <img src="img/safe.png" alt="Img Portfolio">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="portfolio">
+                                    <img src="img/submarine.png" alt="Img Portfolio">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-
-
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-6 col-xl-4 colored-div text-center gy-5">
-                        <img src="img/cabin.png" alt="">
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-xl-4 colored-div text-center gy-5">
-                        <img src="img/cake.png" alt="">
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-xl-4 colored-div text-center gy-5">
-                        <img src="img/circus.png" alt="">
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-xl-4 colored-div text-center gy-5">
-                        <img src="img/game.png" alt="">
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-xl-4 colored-div text-center gy-5">
-                        <img src="img/safe.png" alt="">
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-xl-4 colored-div text-center gy-5">
-                        <img src="img/submarine.png" alt="">
-                    </div>
-                    
-
-                </div>
-
-
             </section>
-            <!-- /portfolio -->
-
-            <!-- about -->
-            <section class="about background-green pt-5 px-5">
-
-                <div class="row">
-                    <div class="col-sm-12 text-center mb-3">
-                        <h2>ABOUT</h2>
+            <!-- /sezione portfolio -->
+            <!-- sezione about -->
+            <section class="py-5 bg-primary-color about">
+                <div class="wrapper-small">
+                    <div class="container-fluid">
+                        <h2>About</h2>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi eius autem. Placeat quasi tempora ipsa ad fuga non quas. Explicabo possimus tempora error facere. Cupiditate quam optio aspernatur et?</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi eius autem. Placeat quasi tempora ipsa ad fuga non quas. Explicabo possimus tempora error facere. Cupiditate quam optio aspernatur et?</p>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button>Download</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-6">
-
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nulla possimus est nobis officia libero esse perspiciatis quas nisi perferendis in aliquid obcaecati veritatis eum, at totam! Eaque, omnis quae.</p>
-
-                    </div>
-
-                    <div class="col-sm-12 col-md-6">
-
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error earum quod nemo exercitationem, maxime quis modi labore voluptatem voluptates eaque repudiandae nisi corporis quibusdam suscipit nobis neque quae vel ipsam!</p>
-
-                    </div>
-
-                </div>
-
             </section>
-            <!-- /about -->
-
-            <!-- form -->
-            <section class="form">
-
-                <div class="row">
-
-                    <div class="col-sm-12 text-center">
-                        <h2>CONTACT ME</h2>
+            <!-- /sezione about -->
+            <!-- sezione contatti -->
+            <section class="py-5">
+                <div class="wrapper-small">
+                    <div class="container-fluid">
+                        <h2>Contact me</h2>
+                        <div>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eum molestiae sit mollitia maiores blanditiis beatae. Est autem velit dicta accusamus, enim magni quis cumque beatae corporis sunt, illo omnis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eum molestiae sit mollitia maiores blanditiis beatae. Est autem velit dicta accusamus, enim magni quis cumque beatae corporis sunt, illo omnis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eum molestiae sit mollitia maiores blanditiis beatae. Est autem velit dicta accusamus, enim magni quis cumque beatae corporis sunt, illo omnis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eum molestiae sit mollitia maiores blanditiis beatae. Est autem velit dicta accusamus, enim magni quis cumque beatae corporis sunt, illo omnis.
+                        </div>
                     </div>
-
                 </div>
-
-                <div class="row">
-
-                    <div class="col-sm-12 text-center">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quam amet omnis id. Modi quo ad rerum dolorem commodi deserunt ducimus maiores labore? Doloremque sint corporis laudantium quasi aperiam rerum!</p>
-                    </div>
-
-                </div>
-
-
             </section>
-            <!-- /form -->
-
+            <!-- /sezione contatti -->
         </main>
-        <!-- /main -->
-        
-
-        <!-- footer -->
         <footer>
-
-            <!-- footer-top -->
-            <div class="footer-top background-blue">
-                
-                <div class="row">
-
-                    <div class="col-sm-12 col-md-4 text-center">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque quaerat similique numquam voluptates error quod odio exercitationem voluptate! Doloremque autem reiciendis ut sequi asperiores est enim temporibus impedit. Ipsa.</p>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4 text-center">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, tempora repellat voluptatum illo perferendis cupiditate. Dolores, totam! Atque eveniet corrupti pariatur exercitationem quam minus rem, qui voluptas quasi hic natus!</p>
-                    </div>
-
-                    <div class="col-sm-12 col-md-4 text-center">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam, cupiditate doloremque repellendus explicabo nulla incidunt iste, sequi accusamus vero enim non veniam modi at minima eligendi labore? Inventore, hic.</p>
-                    </div>
-
-                </div>
-
-            </div>
-            <!-- /footer top -->
-
-            <!-- footer bottom -->
-            <div class="footer-bottom background-green py-5">
-
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        Copyright your website 2019
+            <div class="footer-top bg-tertiary-color py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores impedit deserunt ducimus aspernatur consequuntur maxime exercitationem porro ut vitae esse, dolore, minima nam natus. Rem laborum temporibus ducimus voluptates commodi!</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores impedit deserunt ducimus aspernatur consequuntur maxime exercitationem porro ut vitae esse, dolore, minima nam natus. Rem laborum temporibus ducimus voluptates commodi!</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores impedit deserunt ducimus aspernatur consequuntur maxime exercitationem porro ut vitae esse, dolore, minima nam natus. Rem laborum temporibus ducimus voluptates commodi!</p>
+                        </div>
                     </div>
                 </div>
-
             </div>
-            <!-- /footer bottom -->
-
+            <div class="footer-bottom bg-secondary-color py-5">
+                <div class="container">
+                    <small>Copyright Your website 2019</small>
+                </div>
+            </div>
         </footer>
-        <!-- /footer -->
-
-
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

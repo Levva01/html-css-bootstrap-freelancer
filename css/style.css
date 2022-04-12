@@ -1,30 +1,77 @@
-/*--------------------------
-    BACKGROUND COLORS
---------------------------*/
-
-.background-blue{
-    background-color: blue;
+/*----------------------
+    CONTAINERS
+-----------------------*/
+.wrapper-small {
+    width: 60%;
+    margin: auto;
 }
 
-.background-green{
-    background-color: green;   
+/*----------------------
+    COLORS
+-----------------------*/
+
+.bg-primary-color {
+    background-color: #19BC9C;
+}
+.bg-secondary-color {
+    background-color: #2C3E4F;
+}
+.bg-tertiary-color {
+    background-color: #3b536d;
 }
 
-.background-red{
-    background-color: red;
+/*----------------------
+    TYPO
+-----------------------*/
+h2 {
+    text-align: center;
 }
 
-/* HERO */
+/*----------------------
+    HEADER
+-----------------------*/
+header {
+    color: #fff;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 0 10px;
+    margin-bottom: 0px;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+/*----------------------
+    MAIN
+-----------------------*/
+.hero {
+    color: #fff;
+    text-align: center;
+}
 
 .hero img{
-    width: 30%;
+    width: 300px;
     height: auto;
 }
 
-
-/* PORTFOLIO */
-
-.portfolio img{
+.portfolio img {
     width: 100%;
-    height: auto;
+}
+
+.about {
+    color: #fff;
+}
+
+/*----------------------
+    FOOTER
+-----------------------*/
+footer {
+    color: #fff;
+    text-align: center;
 }
